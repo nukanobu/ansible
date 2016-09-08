@@ -1,5 +1,5 @@
 # ansible
-centos7.2 
+centos7.2 <br>
 selinux disabled
 
 ## ansible インストール
@@ -7,6 +7,11 @@ selinux disabled
 
 `yum install ansible`
 
-
+`
+[root@localhost git]# ansible --version
+ansible 2.1.1.0
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = Default w/o overrides
+`
 
 
